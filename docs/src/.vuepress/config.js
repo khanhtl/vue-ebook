@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'In-depth understanding of Vue.js practice',
+  title: 'In-depth vue',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -29,31 +29,27 @@ module.exports = {
   themeConfig: {
     repo: '',
     editLinks: false,
+    sidebarDepth: 1,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Content',
+        link: '/vue-ebook/0.html',
       },
-      // {
-      //   text: 'Config',
-      //   link: '/config/'
-      // },
       {
         text: 'Github',
         link: 'https://github.com/godbasin/vue-ebook'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/vue-ebook/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'Lời nói đầu',
+          collapsable: true,
           children: [
-            '',
-            'using-vue',
+            '/vue-ebook/0',
           ]
         }
       ],

@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png
 tagline: "Author: Deleted"
 actionText: Quick read →
-actionLink: /guide/
+actionLink: /vue-ebook/0.html
 features:
 - title: Part I
   details: Introducing Vue Quick Start. Combining Vue basics, Vue framework and design, get started quickly.
