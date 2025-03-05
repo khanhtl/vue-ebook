@@ -47,9 +47,16 @@ module.exports = {
       '/vue-ebook/': [
         {
           title: 'Lời nói đầu',
-          collapsable: true,
+          collapsable: false,
           children: [
             '/vue-ebook/0',
+          ]
+        },
+        {
+          title: 'Phần 1: Vue Quick Start',
+          collapsable: false,
+          children: [
+            '/vue-ebook/1',
           ]
         }
       ],
