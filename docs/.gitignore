@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# MacOS system files
+.DS_Store
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
