@@ -39,7 +39,11 @@ module.exports = {
         link: '/vue-ebook/0.html',
       },
       {
-        text: 'Github',
+        text: 'Translate Github',
+        link: 'https://github.com/khanhtl/vue-ebook'
+      },
+      {
+        text: 'Origin Github',
         link: 'https://github.com/godbasin/vue-ebook'
       }
     ],
@@ -57,6 +61,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/vue-ebook/1',
+            '/vue-ebook/2',
           ]
         }
       ],
